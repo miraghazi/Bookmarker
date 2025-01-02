@@ -67,7 +67,7 @@ function display(list){
         <td>${list[i].Name}</td>
       
         <td><button class="btn btn-visit  bg-success text-white">
-        <i class="fa-solid fa-eye pe-2"></i> <a href="${bookmarks[i].URL}"
+        <i class="fa-solid fa-eye pe-2"></i> <a target="_blank" href="${bookmarks[i].URL}"
          class="text-decoration-none text-white">Visit</a></button>
          </td>
 
